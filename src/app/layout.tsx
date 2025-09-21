@@ -42,8 +42,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                if (localStorage.getItem('darkMode') === 'true' || 
-                    (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                const savedTheme = localStorage.getItem('darkMode');
+                if (savedTheme === 'true') {
+                  document.documentElement.classList.add('dark');
+                } else if (savedTheme === 'false') {
+                  document.documentElement.classList.remove('dark');
+                } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
                   document.documentElement.classList.add('dark');
                 }
               } catch (e) {}

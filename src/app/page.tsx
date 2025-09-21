@@ -22,8 +22,18 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true);
-    const isDark = localStorage.getItem('darkMode') === 'true' || 
-      (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const savedTheme = localStorage.getItem('darkMode');
+    let isDark = false;
+    
+    if (savedTheme === 'true') {
+      isDark = true;
+    } else if (savedTheme === 'false') {
+      isDark = false;
+    } else {
+      // Only use system preference if no saved preference
+      isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    
     setDarkMode(isDark);
     document.documentElement.classList.toggle('dark', isDark);
   }, []);
