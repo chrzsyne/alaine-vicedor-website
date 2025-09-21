@@ -112,7 +112,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="mb-8">
               <Image
-                src="https://lh3.googleusercontent.com/d/1QxZU51SBORCL1irkz3Fluqbwjj7oyJqF"
+                src="/profile-image.jpg"
                 alt="Alaine Vicedor Professional Headshot"
                 width={200}
                 height={200}
