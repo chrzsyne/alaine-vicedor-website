@@ -533,6 +533,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
                 <p className="text-gray-600 dark:text-gray-300">Brno, Czech Republic</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Available for remote work</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Available for full-time employment</p>
               </div>
             </div>
           </div>
@@ -542,8 +543,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 dark:bg-black text-white py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400">
-            © 2025 Alaine Vicedor. All rights reserved. | Available for full-time employment
+            <p className="text-gray-400">
+            © 2025 Alaine Vicedor. All rights reserved.
           </p>
         </div>
       </footer>
