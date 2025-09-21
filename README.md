@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alaine Vicedor - Professional Website
+
+A modern, responsive personal website showcasing Alaine Vicedor's professional experience, skills, and achievements as a Digital Transformation Specialist.
+
+## Features
+
+- **Modern Design**: Clean, professional design with dark/light mode toggle
+- **Responsive**: Fully responsive design that works on all devices
+- **Performance Optimized**: Built with Next.js 15 and optimized for speed
+- **SEO Ready**: Includes meta tags, sitemap, and robots.txt
+- **Accessibility**: WCAG compliant with proper focus states and semantic HTML
+- **Interactive**: Smooth scrolling navigation and scroll-to-top functionality
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Icons**: Lucide React
+- **Fonts**: Geist Sans & Geist Mono
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd alaine-vicedor-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+### Building for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles and CSS variables
+│   ├── layout.tsx           # Root layout with metadata
+│   └── page.tsx             # Main page component
+public/
+├── robots.txt               # SEO robots file
+└── sitemap.xml             # SEO sitemap
+```
 
-## Deploy on Vercel
+## Sections
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Home**: Hero section with professional headshot and call-to-action
+- **About**: Professional summary and key achievements
+- **Experience**: Detailed work history with accomplishments
+- **Skills**: Technical and soft skills organized by category
+- **Education**: Academic background and certifications
+- **Contact**: Contact information and social links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+### Updating Content
+
+Edit the content in `src/app/page.tsx` to update:
+- Personal information
+- Work experience
+- Skills and certifications
+- Contact details
+
+### Styling
+
+Modify `src/app/globals.css` for:
+- Color schemes
+- Typography
+- Custom animations
+- Print styles
+
+### SEO
+
+Update `src/app/layout.tsx` for:
+- Meta descriptions
+- Open Graph tags
+- Twitter cards
+- Keywords
+
+## Performance
+
+The website is optimized for performance with:
+- Static generation for fast loading
+- Image optimization with Next.js Image component
+- CSS optimization with Tailwind CSS
+- Minimal JavaScript bundle size
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+© 2025 Alaine Vicedor. All rights reserved.
+
+## Contact
+
+- Email: alainevicedor@gmail.com
+- LinkedIn: [linkedin.com/in/advicedor](https://www.linkedin.com/in/advicedor/)
+- GitHub: [github.com/chrzsyne](https://github.com/chrzsyne)
