@@ -20,8 +20,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Alaine Vicedor - Digital Transformation Specialist",
     description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
+    url: "https://advicedor.vercel.app",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "https://advicedor.vercel.app/preview-image.jpg",
+        width: 1200,
+        height: 627,
+        alt: "Alaine Vicedor",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
