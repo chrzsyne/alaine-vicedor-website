@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://advicedor.vercel.app/preview-image.jpg",
+        url: "https://advicedor.vercel.app/preview-image.png",
         width: 1344,
         height: 768,
         alt: "Alaine Vicedor - Digital Transformation Specialist",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Alaine Vicedor - Digital Transformation Specialist",
     description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
-    images: ["https://advicedor.vercel.app/preview-image.jpg"],
+    images: ["https://advicedor.vercel.app/preview-image.png"],
   },
 };
 
