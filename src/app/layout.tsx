@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: "Alaine Vicedor - Digital Transformation Specialist",
     description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
     url: "https://advicedor.vercel.app",
+    siteName: "Alaine Vicedor",
     type: "website",
     locale: "en_US",
     images: [
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
         url: "https://advicedor.vercel.app/preview-image.jpg",
         width: 1200,
         height: 627,
-        alt: "Alaine Vicedor",
+        alt: "Alaine Vicedor - Digital Transformation Specialist",
       },
     ],
   },
@@ -36,6 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Alaine Vicedor - Digital Transformation Specialist",
     description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
+    images: ["https://advicedor.vercel.app/preview-image.jpg"],
   },
 };
 
