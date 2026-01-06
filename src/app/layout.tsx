@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://advicedor.vercel.app/preview-image.jpg",
-        width: 1200,
-        height: 627,
+        width: 1344,
+        height: 768,
         alt: "Alaine Vicedor - Digital Transformation Specialist",
       },
     ],
