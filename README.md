@@ -118,7 +118,7 @@ The website is optimized for performance with:
 
 ## License
 
-© 2025 Alaine Vicedor. All rights reserved.
+© 2026 Alaine Vicedor. All rights reserved.
 
 ## Contact
 
