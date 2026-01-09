@@ -436,11 +436,11 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
-                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400">BSc in Civil Engineering</h4>
+                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400">BSc in Civil Engineering (5-year program)</h4>
                     <p className="text-lg font-medium">University of the Philippines Diliman</p>
                     <p className="text-gray-600 dark:text-gray-300">Quezon City, PH</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                      The country&apos;s premier state university known for academic excellence and leadership in research and public service. 5-year program.
+                      The country&apos;s premier state university known for academic excellence and leadership in research and public service.
                     </p>
                   </div>
                 </div>
