@@ -138,7 +138,7 @@ export default function Home() {
               Alaine Vicedor
             </h1>
             <h2 className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 mb-6">
-              Digital Transformation Specialist
+              AI Business Analyst | Digital Transformation Specialist
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               Driving enterprise-scale digital initiatives across global banking and technology sectors. 
