@@ -229,7 +229,7 @@ export default function Home() {
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold">Business Analyst – Process Mining</h3>
+                    <h3 className="text-xl font-semibold">AI Business Analyst – Process Mining</h3>
                     <p className="text-blue-600 dark:text-blue-400 font-medium">Deutsche Telekom</p>
                     <p className="text-gray-600 dark:text-gray-300">Brno, Czechia</p>
                   </div>
