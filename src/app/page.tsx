@@ -225,6 +225,23 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Work Experience</h2>
             <div className="space-y-8">
+              {/* Deutsche Telekom */}
+              <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold">Business Analyst – Process Mining</h3>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium">Deutsche Telekom</p>
+                    <p className="text-gray-600 dark:text-gray-300">Brno, Czechia</p>
+                  </div>
+                  <span className="text-gray-500 dark:text-gray-400 mt-2 md:mt-0">Oct 2025 – Present</span>
+                </div>
+                <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+                  <li>• Conducted process discovery analysis across 15+ workflows using Celonis, validating 4 automation-ready processes with €200K+ projected annual savings</li>
+                  <li>• Supported requirements elicitation for AI agent use cases, documenting specifications for task decomposition and data annotation workflows</li>
+                  <li>• Analyzed master data quality in SAP S/4HANA modules, recommending validation rule enhancements to reduce data errors</li>
+                </ul>
+              </div>
+
               {/* Antonio Enterprises */}
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
