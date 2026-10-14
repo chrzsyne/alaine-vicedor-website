@@ -445,20 +445,26 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold mb-6">Education</h3>
                 <div className="space-y-6">
                   <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
-                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400">MSc in Business Management</h4>
-                    <p className="text-lg font-medium">Masaryk University</p>
-                    <p className="text-gray-600 dark:text-gray-300">Brno, Czech Republic</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                      One of Czech Republic&apos;s most prestigious public universities, recognized for its comprehensive research and strong international outlook.
+                    <p className="text-lg font-medium text-gray-900 dark:text-gray-100">
+                      University of Colorado Boulder | Colorado, US
                     </p>
+                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mt-2">
+                      MSc in Computer Science
+                    </h4>
                   </div>
                   <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
-                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400">BSc in Civil Engineering (5-year program)</h4>
-                    <p className="text-lg font-medium">University of the Philippines Diliman</p>
-                    <p className="text-gray-600 dark:text-gray-300">Quezon City, PH</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                      The country&apos;s premier state university known for academic excellence and leadership in research and public service.
+                    <p className="text-lg font-medium text-gray-900 dark:text-gray-100">Masaryk University</p>
+                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mt-2">
+                      MSc in Business Management
+                    </h4>
+                  </div>
+                  <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
+                    <p className="text-lg font-medium text-gray-900 dark:text-gray-100">
+                      University of the Philippines
                     </p>
+                    <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mt-2">
+                      BSc in Civil Engineering (5-year program)
+                    </h4>
                   </div>
                 </div>
               </div>
