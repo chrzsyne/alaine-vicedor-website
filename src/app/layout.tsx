@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alaine Vicedor - Digital Transformation Specialist",
-  description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors. Expert in agile project management, cloud integration, and business-IT alignment.",
+  title: "Alaine Vicedor - Senior Business Analyst",
+  description: "Senior Business Analyst with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors. Expert in agile project management, cloud integration, and business-IT alignment.",
   keywords: "Digital Transformation, Business Analyst, Project Management, Cloud Integration, Agile, Scrum, AWS, Azure",
   authors: [{ name: "Alaine Vicedor" }],
   openGraph: {
-    title: "Alaine Vicedor - Digital Transformation Specialist",
-    description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
+    title: "Alaine Vicedor - Senior Business Analyst",
+    description: "Senior Business Analyst with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
     url: "https://advicedor.vercel.app",
     siteName: "Alaine Vicedor",
     type: "website",
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
         url: "https://advicedor.vercel.app/preview-image.png",
         width: 1344,
         height: 768,
-        alt: "Alaine Vicedor - Digital Transformation Specialist",
+        alt: "Alaine Vicedor - Senior Business Analyst",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alaine Vicedor - Digital Transformation Specialist",
-    description: "Digital Transformation Specialist with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
+    title: "Alaine Vicedor - Senior Business Analyst",
+    description: "Senior Business Analyst with 5+ years driving enterprise-scale digital initiatives across global banking and technology sectors.",
     images: ["https://advicedor.vercel.app/preview-image.png"],
   },
 };

@@ -138,7 +138,7 @@ export default function Home() {
               Alaine Vicedor
             </h1>
             <h2 className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 mb-6">
-              AI Business Analyst | Digital Transformation Specialist
+              Senior Business Analyst
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               Driving enterprise-scale digital initiatives across global banking and technology sectors. 
@@ -188,11 +188,11 @@ export default function Home() {
                 </p>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <MapPin className="h-5 w-5 mr-2" />
-                  <span>Brno, Czech Republic</span>
+                  <span>Paris, France</span>
                 </div>
                 <div className="flex items-center text-gray-600 dark:text-gray-300 mt-2">
                   <Phone className="h-5 w-5 mr-2" />
-                  <span>+420 776 188 957</span>
+                  <span>+33 (0) 743 76 0111</span>
                 </div>
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg">
@@ -548,7 +548,7 @@ export default function Home() {
                   <MapPin className="h-8 w-8 text-green-600 dark:text-green-400" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
-                <p className="text-gray-600 dark:text-gray-300">Brno, Czech Republic</p>
+                <p className="text-gray-600 dark:text-gray-300">Paris, France</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Available for remote work</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Available for full-time employment</p>
               </div>
